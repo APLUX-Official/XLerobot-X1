@@ -183,7 +183,7 @@ python -m lerobot.scripts.lerobot_record --robot so101_follower --output_dir dat
 - **Interface Configuration**:
   - Robotic arm control: Use UART interface
   - Camera connection: Use CSI interface
-  - Network connection: Use Gigabit Ethernet or Wi-Fi 7
+  - Network connection: Use Gigabit Ethernet or Wi-Fi 6
 
 ### Performance Optimization
 

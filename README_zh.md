@@ -183,7 +183,7 @@ python -m lerobot.scripts.lerobot_record --robot so101_follower --output_dir dat
 - **接口配置**：
   - 机械臂控制：使用 UART 接口
   - 相机连接：使用 CSI 接口
-  - 网络连接：使用千兆以太网或 Wi-Fi 7
+  - 网络连接：使用千兆以太网或 Wi-Fi 6
 
 ### 性能优化
 
