@@ -49,9 +49,10 @@ XLerobot-X1 是一个基于高通 QCS8550 边缘计算设备的低成本双臂�
 3. **审查 `Hardware_List` 文档**：列出项目所需的所有硬件组件和购买链接
 4. **检查 `3D_Printing_Models` 文件夹**：包含项目的所有可打印部件
 5. **浏览 `Assembly_Steps_and_Structure_Diagram` 文件夹**：包含机械臂、底盘和顶部安装的组装说明
-6. **研究 `Wiring_Diagram` 文件夹**：了解如何连接所有组件
-7. **完成硬件组装和接线后**：参考 `Set_Servo_ID` 文件夹，了解如何设置和编号所有伺服电机的 ID
-8. **完成所有硬件工作后**：进入 `Code_Resources` 文件夹获取软件级说明
+6. **观看安装教程视频** [3D打印机械臂安装完整教程](https://www.bilibili.com/video/BV14UfeB9ErT/?share_source=copy_web&vd_source=a0b758095cb5fcb77af22d495bca8199)
+7. **研究 `Wiring_Diagram` 文件夹**：了解如何连接所有组件
+8. **完成硬件组装和接线后**：参考 `Set_Servo_ID` 文件夹，了解如何设置和编号所有伺服电机的 ID
+9. **完成所有硬件工作后**：进入 `Code_Resources` 文件夹获取软件级说明
 
 ## 代码资源
 

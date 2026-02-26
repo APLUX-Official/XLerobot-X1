@@ -49,9 +49,10 @@ XLerobot-X1 is a low-cost dual-arm mobile robot platform based on Qualcomm QCS85
 3. **Review the `Hardware_List` document** which lists all required hardware components for the project with purchase links
 4. **Examine the 3D models in the `3D_Printing_Models` folder** which contains all printable parts for the project
 5. **Browse the `Assembly_Steps_and_Structure_Diagram` folder** which includes assembly instructions for the robotic arm, chassis, and top mount
-6. **Study the wiring diagrams in the `Wiring_Diagram` folder** to learn how to connect all components
-7. **After hardware assembly and wiring are complete**, refer to the `Set_Servo_ID` folder which explains how to set and number IDs for all servos
-8. **With all hardware work finished**, proceed to the `Code_Resources` folder for software-level instructions
+6. **Watch the installation tutorial video** [3D打印机械臂安装完整教程](https://www.bilibili.com/video/BV14UfeB9ErT/?share_source=copy_web&vd_source=a0b758095cb5fcb77af22d495bca8199)
+7. **Study the wiring diagrams in the `Wiring_Diagram` folder** to learn how to connect all components
+8. **After hardware assembly and wiring are complete**, refer to the `Set_Servo_ID` folder which explains how to set and number IDs for all servos
+9. **With all hardware work finished**, proceed to the `Code_Resources` folder for software-level instructions
 
 ## Code Resources
 
