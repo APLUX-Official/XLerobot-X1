@@ -144,34 +144,7 @@ pip install lerobot
 pip install feetech-servo-sdk==1.0.0
 ```
 
-### Basic Usage
 
-#### Teleoperating SO101 Robotic Arm
-
-```bash
-# Teleoperate SO101 robotic arm using keyboard
-python -m lerobot.scripts.lerobot_teleoperate --robot so101_follower --teleoperator keyboard
-
-# Teleoperate using gamepad
-python -m lerobot.scripts.lerobot_teleoperate --robot so101_follower --teleoperator gamepad
-```
-
-#### Training a Model
-
-```bash
-# Train a policy on collected data
-python -m lerobot.scripts.lerobot_train --config configs/train_config.yaml
-
-# Evaluate a trained policy
-python -m lerobot.scripts.lerobot_eval --model_path path/to/model.pt
-```
-
-#### Recording Data
-
-```bash
-# Record teleoperation data
-python -m lerobot.scripts.lerobot_record --robot so101_follower --output_dir data/collected
-```
 
 ## Board-Specific Configuration
 

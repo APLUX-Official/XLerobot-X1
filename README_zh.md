@@ -144,34 +144,7 @@ pip install lerobot
 pip install feetech-servo-sdk==1.0.0
 ```
 
-### 基本使用
 
-#### 远程操作 SO101 机械臂
-
-```bash
-# 使用键盘远程操作 SO101 机械臂
-python -m lerobot.scripts.lerobot_teleoperate --robot so101_follower --teleoperator keyboard
-
-# 使用游戏手柄远程操作
-python -m lerobot.scripts.lerobot_teleoperate --robot so101_follower --teleoperator gamepad
-```
-
-#### 训练模型
-
-```bash
-# 在收集的数据上训练策略
-python -m lerobot.scripts.lerobot_train --config configs/train_config.yaml
-
-# 评估训练好的策略
-python -m lerobot.scripts.lerobot_eval --model_path path/to/model.pt
-```
-
-#### 记录数据
-
-```bash
-# 记录远程操作数据
-python -m lerobot.scripts.lerobot_record --robot so101_follower --output_dir data/collected
-```
 
 ## 板级特定配置
 
