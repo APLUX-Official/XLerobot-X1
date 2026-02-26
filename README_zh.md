@@ -144,7 +144,22 @@ pip install lerobot
 pip install feetech-servo-sdk==1.0.0
 ```
 
+### 基础使用
 
+#### 示例代码启动
+
+在 `Code_Resources/XLeRobot-X1/examples/` 目录中提供了示例代码，可按以下方式启动：
+
+```bash
+# Joy-Con控制器测试
+python 1_test_joycon.py
+
+# XLeRobot 3Wheels远程操作
+python 7_xlerobot_3wheels_teleop_joycon.py
+
+# XLeRobot 3Wheels校准工具
+python 7b_xlerobot_3wheels_calibration.py
+```
 
 ## 板级特定配置
 
